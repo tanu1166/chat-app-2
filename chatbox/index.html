@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Box</title>
+    <link rel="stylesheet" href="2style.css">
+</head>
+
+<body>
+     <section class="chat_section">
+        <div class="code">
+            <img src="chat.png" alt="" height="40">
+            <h1>CHATBOX</h1>
+        </div>
+        <div class="message_area">
+            <div class="incoming message">
+                <h4>Anubhav</h4>
+                <p>Hello.</p>
+            </div>
+            
+            <div class="outgoing message">
+                <h4>Anirudh</h4>
+                <p>hi</p>
+            </div>
+            <div class="outgoing message">
+                <h4>Anirudh</h4>
+                <p>how are you?</p>
+            </div>
+            <!-- <div class="outgoing message">
+                <h4>Anirudh</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, corporis.</p>
+            </div>
+            <div class="outgoing message">
+                <h4>Anirudh</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, corporis.</p>
+            </div>
+            <div class="outgoing message">
+                <h4>Anirudh</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, corporis.</p>
+            </div> -->
+            <div class="incoming message">
+                <h4>Anubhav</h4>
+                <p>Im good how are you?</p>
+            </div>
+            <div class="outgoing message">
+                <h4>Anirudh</h4>
+                <p>I am fine too</p>
+            </div>
+        </div>
+        <div>
+            <textarea id="textarea" cols="30" rows="10" placeholder="Write something"></textarea>
+        </div>
+        </section>
+    <script src="/socket.io/server.js"></script>
+    <script src="2client.js"></script>
+</body>
+</html>
